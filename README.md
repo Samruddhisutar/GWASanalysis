@@ -1,6 +1,20 @@
+## Overview
+
+This project investigates genetic variants on chromosome 18 associated with early-onset pancreatic cancer (EOPC) using germline variant data from 473 EOPC patients and 891 cancer-free controls. The goal was to identify genetic risk factors, perform quality control (QC), conduct logistic regression–based association analysis, and visualize significant signals.
+
 ## Imports
 
 All required Python libraries for analysis were loaded, including pandas, numpy, seaborn, matplotlib, statsmodels, and scipy.
+
+## Data Description
+
+Two datasets were provided:
+
+Germline Variant File (candidate_EOPC_variants.allele_counts.tsv.gz)
+Contains genotype information for the top 3,364 variants.
+
+Phenotype File (phenotypes.tsv.gz)
+Includes participant metadata: sample_id, pancreas_cancer, age, sex, bmi, ancestry, smoking_history, and principal components (PC1–PC5).
 
 ## Data QC & Preprocessing
 PCA (Population Structure)
